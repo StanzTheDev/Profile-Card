@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="profile-card">
+    <!-- Profile Picture -->
+    <img src="assets/WhatsApp Image 2024-02-11 at 14.22.05_1497c28c.jpg" alt="Profile Picture" data-testid="profilePicture" class="profile-picture">
+
+    <!-- Full Name -->
+    <h1 data-testid="fullName">Sanyaolu Nofisat</h1>
+
+    <!-- Job Title -->
+    <p data-testid="jobTitle">Software Developer</p>
+
+    <!-- ShortBio -->
+    <p data-testid="shortBio">
+      Hi, I'm Nofisat! I'm a passionate software developer with expertise in building the best web applications. 
+      I love working with JavaScript, React, and Node.js. Currently building projects and open to work and collaboration.
+    </p>
+
+    <!-- Location -->
+    <p data-testid="currentLocation">Lagos, Nigeria</p>
+
+    <!-- e mail -->
+    <p data-testid="emailAddress">sanyaolunofisat005@gmail.com</p>
+
+    <!-- Links -->
+    <div data-testid="socialLinks" class="social-links">
+      <a href="https://www.linkedin.com/in/nofisat-sanyaolu-22354927b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ><img class="socials-logo" src="assets/104493_linkedin_icon.png" alt=""></a>
+      <a href="https://github.com/StanzTheDev"><img class="socials-logo" src="assets/211904_social_github_icon.png" alt=""></a>
+      <a href="https://x.com/Sonat_The_Best?t=S0x1kCrYjJa7N1bxbDs3aA&s=09"><img class="socials-logo" src="assets/11053969_x_logo_twitter_new_brand_icon.png" alt=""></a>
+    </div>
+
+    <p class="current-time" data-testid="currentTimeUTC">Current Time (UTC): <span id="currentTime"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
